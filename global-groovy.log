@@ -1,0 +1,268 @@
+2022-07-12 07:04:03,652 INFO  [log] Hello World
+2022-07-12 07:04:03,659 INFO  [log] a=90
+2022-07-12 07:04:03,659 INFO  [log] str=amol
+2022-07-12 07:04:03,668 INFO  [log] Nutesh
+2022-07-12 07:04:03,669 INFO  [log] 25
+2022-07-12 07:04:03,669 INFO  [log] 100
+2022-07-12 07:04:03,671 INFO  [log] IT
+2022-07-12 07:04:03,697 INFO  [log] name=smita
+2022-07-12 07:04:03,771 INFO  [log] id=201
+2022-07-12 07:04:03,771 INFO  [log] name=smita
+2022-07-12 07:04:03,771 INFO  [log] dept=IT
+2022-07-12 07:04:03,771 INFO  [log] age=51
+2022-07-12 07:04:03,785 INFO  [log] <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:typ="http://sample.com/reservation/guest/types">
+   <soap:Header/>
+   <soap:Body>
+      <typ:addEmployee>
+         <!--Optional:-->
+         <typ:name>smita</typ:name>
+         <!--Optional:-->
+         <typ:id>201</typ:id>
+         <!--Optional:-->
+         <typ:Department>IT</typ:Department>
+         <!--Optional:-->
+         <typ:age>51</typ:age>
+      </typ:addEmployee>
+   </soap:Body>
+</soap:Envelope>
+2022-07-12 07:04:03,802 INFO  [log] <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:typ="http://sample.com/reservation/guest/types">
+   <soap:Header/>
+   <soap:Body>
+      <typ:addEmployee>
+         <!--Optional:-->
+         <typ:name>smita</typ:name>
+         <!--Optional:-->
+         <typ:id>201</typ:id>
+         <!--Optional:-->
+         <typ:Department>IT</typ:Department>
+         <!--Optional:-->
+         <typ:age>51</typ:age>
+      </typ:addEmployee>
+   </soap:Body>
+</soap:Envelope>
+2022-07-12 07:04:03,850 INFO  [log] <soapenv:Envelope xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope">
+   <soapenv:Body>
+      <soapenv:Fault>
+         <soapenv:Code>
+            <soapenv:Value>soapenv:Receiver</soapenv:Value>
+         </soapenv:Code>
+         <soapenv:Reason>
+            <soapenv:Text xml:lang="en-US">Employee already Exists</soapenv:Text>
+         </soapenv:Reason>
+         <soapenv:Detail>
+            <ns:EmployeeManagementServiceEmployeeManagementException xmlns:ns="http://sample.com/reservation/guest/types">
+               <EmployeeManagementException xsi:type="ax21:EmployeeManagementException" xmlns="http://sample.com/reservation/guest/types" xmlns:ax21="http://exception.reservation.sample.com/xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                  <ax21:message>Employee already Exists</ax21:message>
+               </EmployeeManagementException>
+            </ns:EmployeeManagementServiceEmployeeManagementException>
+         </soapenv:Detail>
+      </soapenv:Fault>
+   </soapenv:Body>
+</soapenv:Envelope>
+2022-07-12 07:04:03,856 INFO  [log] Employee already Exists
+2022-07-12 07:04:46,053 INFO  [log] Hello World
+2022-07-12 07:04:46,057 INFO  [log] a=90
+2022-07-12 07:04:46,057 INFO  [log] str=amol
+2022-07-12 07:04:46,064 INFO  [log] Nutesh
+2022-07-12 07:04:46,064 INFO  [log] 25
+2022-07-12 07:04:46,064 INFO  [log] 100
+2022-07-12 07:04:46,065 INFO  [log] IT
+2022-07-12 07:04:46,084 INFO  [log] name=smita
+2022-07-12 07:04:46,175 INFO  [log] id=201
+2022-07-12 07:04:46,176 INFO  [log] name=smita
+2022-07-12 07:04:46,176 INFO  [log] dept=IT
+2022-07-12 07:04:46,176 INFO  [log] age=51
+2022-07-12 07:04:46,187 INFO  [log] <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:typ="http://sample.com/reservation/guest/types">
+   <soap:Header/>
+   <soap:Body>
+      <typ:addEmployee>
+         <!--Optional:-->
+         <typ:name>smita</typ:name>
+         <!--Optional:-->
+         <typ:id>201</typ:id>
+         <!--Optional:-->
+         <typ:Department>IT</typ:Department>
+         <!--Optional:-->
+         <typ:age>51</typ:age>
+      </typ:addEmployee>
+   </soap:Body>
+</soap:Envelope>
+2022-07-12 07:04:46,197 INFO  [log] <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:typ="http://sample.com/reservation/guest/types">
+   <soap:Header/>
+   <soap:Body>
+      <typ:addEmployee>
+         <!--Optional:-->
+         <typ:name>smita</typ:name>
+         <!--Optional:-->
+         <typ:id>201</typ:id>
+         <!--Optional:-->
+         <typ:Department>IT</typ:Department>
+         <!--Optional:-->
+         <typ:age>51</typ:age>
+      </typ:addEmployee>
+   </soap:Body>
+</soap:Envelope>
+2022-07-12 07:04:46,241 INFO  [log] <soapenv:Envelope xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope">
+   <soapenv:Body>
+      <soapenv:Fault>
+         <soapenv:Code>
+            <soapenv:Value>soapenv:Receiver</soapenv:Value>
+         </soapenv:Code>
+         <soapenv:Reason>
+            <soapenv:Text xml:lang="en-US">Employee already Exists</soapenv:Text>
+         </soapenv:Reason>
+         <soapenv:Detail>
+            <ns:EmployeeManagementServiceEmployeeManagementException xmlns:ns="http://sample.com/reservation/guest/types">
+               <EmployeeManagementException xsi:type="ax21:EmployeeManagementException" xmlns="http://sample.com/reservation/guest/types" xmlns:ax21="http://exception.reservation.sample.com/xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                  <ax21:message>Employee already Exists</ax21:message>
+               </EmployeeManagementException>
+            </ns:EmployeeManagementServiceEmployeeManagementException>
+         </soapenv:Detail>
+      </soapenv:Fault>
+   </soapenv:Body>
+</soapenv:Envelope>
+2022-07-12 07:04:46,246 INFO  [log] Employee already Exists
+2022-07-12 07:06:47,753 INFO  [log] Hello World
+2022-07-12 07:06:47,763 INFO  [log] a=90
+2022-07-12 07:06:47,763 INFO  [log] str=amol
+2022-07-12 07:06:47,769 INFO  [log] Nutesh
+2022-07-12 07:06:47,770 INFO  [log] 25
+2022-07-12 07:06:47,770 INFO  [log] 100
+2022-07-12 07:06:47,771 INFO  [log] IT
+2022-07-12 07:06:47,806 INFO  [log] name=smita
+2022-07-12 07:06:47,867 INFO  [log] id=201
+2022-07-12 07:06:47,867 INFO  [log] name=smita
+2022-07-12 07:06:47,867 INFO  [log] dept=IT
+2022-07-12 07:06:47,867 INFO  [log] age=51
+2022-07-12 07:06:47,874 INFO  [log] <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:typ="http://sample.com/reservation/guest/types">
+   <soap:Header/>
+   <soap:Body>
+      <typ:addEmployee>
+         <!--Optional:-->
+         <typ:name>smita</typ:name>
+         <!--Optional:-->
+         <typ:id>201</typ:id>
+         <!--Optional:-->
+         <typ:Department>IT</typ:Department>
+         <!--Optional:-->
+         <typ:age>51</typ:age>
+      </typ:addEmployee>
+   </soap:Body>
+</soap:Envelope>
+2022-07-12 07:06:47,899 INFO  [log] <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:typ="http://sample.com/reservation/guest/types">
+   <soap:Header/>
+   <soap:Body>
+      <typ:addEmployee>
+         <!--Optional:-->
+         <typ:name>smita</typ:name>
+         <!--Optional:-->
+         <typ:id>201</typ:id>
+         <!--Optional:-->
+         <typ:Department>IT</typ:Department>
+         <!--Optional:-->
+         <typ:age>51</typ:age>
+      </typ:addEmployee>
+   </soap:Body>
+</soap:Envelope>
+2022-07-12 07:06:47,960 INFO  [log] <soapenv:Envelope xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope">
+   <soapenv:Body>
+      <soapenv:Fault>
+         <soapenv:Code>
+            <soapenv:Value>soapenv:Receiver</soapenv:Value>
+         </soapenv:Code>
+         <soapenv:Reason>
+            <soapenv:Text xml:lang="en-US">Employee already Exists</soapenv:Text>
+         </soapenv:Reason>
+         <soapenv:Detail>
+            <ns:EmployeeManagementServiceEmployeeManagementException xmlns:ns="http://sample.com/reservation/guest/types">
+               <EmployeeManagementException xsi:type="ax21:EmployeeManagementException" xmlns="http://sample.com/reservation/guest/types" xmlns:ax21="http://exception.reservation.sample.com/xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                  <ax21:message>Employee already Exists</ax21:message>
+               </EmployeeManagementException>
+            </ns:EmployeeManagementServiceEmployeeManagementException>
+         </soapenv:Detail>
+      </soapenv:Fault>
+   </soapenv:Body>
+</soapenv:Envelope>
+2022-07-12 07:06:47,965 INFO  [log] Employee already Exists
+2022-07-12 07:07:42,271 INFO  [log] Hello World
+2022-07-12 07:07:42,276 INFO  [log] a=90
+2022-07-12 07:07:42,276 INFO  [log] str=amol
+2022-07-12 07:07:42,284 INFO  [log] Nutesh
+2022-07-12 07:07:42,284 INFO  [log] 25
+2022-07-12 07:07:42,285 INFO  [log] 100
+2022-07-12 07:07:42,286 INFO  [log] IT
+2022-07-12 07:07:42,303 INFO  [log] name=smita
+2022-07-12 07:07:42,366 INFO  [log] id=201
+2022-07-12 07:07:42,366 INFO  [log] name=smita
+2022-07-12 07:07:42,366 INFO  [log] dept=IT
+2022-07-12 07:07:42,366 INFO  [log] age=51
+2022-07-12 07:07:42,376 INFO  [log] <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:typ="http://sample.com/reservation/guest/types">
+   <soap:Header/>
+   <soap:Body>
+      <typ:addEmployee>
+         <!--Optional:-->
+         <typ:name>smita</typ:name>
+         <!--Optional:-->
+         <typ:id>201</typ:id>
+         <!--Optional:-->
+         <typ:Department>IT</typ:Department>
+         <!--Optional:-->
+         <typ:age>51</typ:age>
+      </typ:addEmployee>
+   </soap:Body>
+</soap:Envelope>
+2022-07-12 07:07:42,386 INFO  [log] <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:typ="http://sample.com/reservation/guest/types">
+   <soap:Header/>
+   <soap:Body>
+      <typ:addEmployee>
+         <!--Optional:-->
+         <typ:name>smita</typ:name>
+         <!--Optional:-->
+         <typ:id>201</typ:id>
+         <!--Optional:-->
+         <typ:Department>IT</typ:Department>
+         <!--Optional:-->
+         <typ:age>51</typ:age>
+      </typ:addEmployee>
+   </soap:Body>
+</soap:Envelope>
+2022-07-12 07:07:42,437 INFO  [log] <soapenv:Envelope xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope">
+   <soapenv:Body>
+      <soapenv:Fault>
+         <soapenv:Code>
+            <soapenv:Value>soapenv:Receiver</soapenv:Value>
+         </soapenv:Code>
+         <soapenv:Reason>
+            <soapenv:Text xml:lang="en-US">Employee already Exists</soapenv:Text>
+         </soapenv:Reason>
+         <soapenv:Detail>
+            <ns:EmployeeManagementServiceEmployeeManagementException xmlns:ns="http://sample.com/reservation/guest/types">
+               <EmployeeManagementException xsi:type="ax21:EmployeeManagementException" xmlns="http://sample.com/reservation/guest/types" xmlns:ax21="http://exception.reservation.sample.com/xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                  <ax21:message>Employee already Exists</ax21:message>
+               </EmployeeManagementException>
+            </ns:EmployeeManagementServiceEmployeeManagementException>
+         </soapenv:Detail>
+      </soapenv:Fault>
+   </soapenv:Body>
+</soapenv:Envelope>
+2022-07-12 07:07:42,441 INFO  [log] Employee already Exists
+2022-07-12 07:15:16,959 INFO  [log] {"error":true,"result":"User exists"}
+2022-07-12 07:15:16,993 INFO  [log] expected1=User exists
+2022-07-12 07:15:16,993 INFO  [log] expected=User exists
+2022-07-12 07:15:16,998 INFO  [log] User exists
+2022-07-12 07:16:11,588 INFO  [log] {"error":true,"result":"User exists"}
+2022-07-12 07:16:11,634 INFO  [log] expected1=User exists
+2022-07-12 07:16:11,634 INFO  [log] expected=User exists
+2022-07-12 07:16:11,641 INFO  [log] User exists
+2022-07-12 07:17:34,039 INFO  [log] {"error":true,"result":"User exists"}
+2022-07-12 07:17:34,066 INFO  [log] expected1=User exists
+2022-07-12 07:17:34,066 INFO  [log] expected=User exists
+2022-07-12 07:17:34,070 INFO  [log] User exists
+2022-07-12 07:18:38,446 INFO  [log] {"error":true,"result":"User exists"}
+2022-07-12 07:18:38,483 INFO  [log] expected1=User exists
+2022-07-12 07:18:38,483 INFO  [log] expected=User exists
+2022-07-12 07:18:38,487 INFO  [log] User exists
+2022-07-12 07:20:18,191 INFO  [log] {"error":true,"result":"User exists"}
+2022-07-12 07:20:18,231 INFO  [log] expected1=User exists
+2022-07-12 07:20:18,231 INFO  [log] expected=User exists
+2022-07-12 07:20:18,236 INFO  [log] User exists

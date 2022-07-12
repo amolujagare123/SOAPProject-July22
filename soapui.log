@@ -1,0 +1,29 @@
+2022-07-12 07:22:10,477 WARN  [SoapUI] Missing folder [D:\Study\SOAPProject-July22\ext] for external libraries
+2022-07-12 07:22:10,598 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\amolu\soapui-settings.xml]
+2022-07-12 07:22:11,467 INFO  [Reflections] Reflections took 62 ms to scan 2 urls, producing 75 keys and 160 values 
+2022-07-12 07:22:11,566 INFO  [Reflections] Reflections took 14 ms to scan 1 urls, producing 46 keys and 344 values 
+2022-07-12 07:22:11,585 INFO  [Reflections] Reflections took 7 ms to scan 1 urls, producing 11 keys and 17 values 
+2022-07-12 07:22:11,599 INFO  [Reflections] Reflections took 4 ms to scan 1 urls, producing 13 keys and 21 values 
+2022-07-12 07:22:11,796 INFO  [Reflections] Reflections took 165 ms to scan 13 urls, producing 341 keys and 1458 values 
+2022-07-12 07:22:11,806 INFO  [PluginManager] Adding plugin from [C:\Users\amolu\.soapuios\plugins\soapui-swagger-plugin-2.2-dist.jar]
+2022-07-12 07:22:11,806 INFO  [PluginManager] Adding plugin from [C:\Users\amolu\.soapuios\plugins\ready-mqtt-plugin-dist.jar]
+2022-07-12 07:22:11,894 INFO  [Reflections] Reflections took 42 ms to scan 2 urls, producing 75 keys and 160 values 
+2022-07-12 07:22:12,018 INFO  [Reflections] Reflections took 180 ms to scan 13 urls, producing 341 keys and 1458 values 
+2022-07-12 07:22:12,288 INFO  [Reflections] Reflections took 373 ms to scan 1 urls, producing 1492 keys and 5707 values 
+2022-07-12 07:22:12,313 INFO  [PluginManager] Adding plugin from [C:\Users\amolu\.soapuios\plugins\ready-uxm-plugin-os-1.0.3.jar]
+2022-07-12 07:22:12,356 INFO  [Reflections] Reflections took 332 ms to scan 1 urls, producing 1492 keys and 5707 values 
+2022-07-12 07:22:12,373 INFO  [PluginManager] Adding plugin from [C:\Users\amolu\.soapuios\plugins\readyapi-postman-1.0.1.jar]
+2022-07-12 07:22:12,389 INFO  [Reflections] Reflections took 5 ms to scan 1 urls, producing 11 keys and 17 values 
+2022-07-12 07:22:12,396 INFO  [Reflections] Reflections took 13 ms to scan 1 urls, producing 46 keys and 344 values 
+2022-07-12 07:22:12,685 INFO  [Reflections] Reflections took 293 ms to scan 1 urls, producing 1492 keys and 5707 values 
+2022-07-12 07:22:12,688 INFO  [Reflections] Reflections took 286 ms to scan 1 urls, producing 1492 keys and 5707 values 
+2022-07-12 07:22:12,691 INFO  [PluginManager] Adding plugin from [C:\Users\amolu\.soapuios\plugins\readyapi-swaggerhub-plugin-1.0.jar]
+2022-07-12 07:22:12,702 INFO  [Reflections] Reflections took 2 ms to scan 1 urls, producing 13 keys and 21 values 
+2022-07-12 07:22:12,950 INFO  [Reflections] Reflections took 244 ms to scan 1 urls, producing 1492 keys and 5707 values 
+2022-07-12 07:22:12,958 INFO  [PluginManager] 5 plugins loaded in 1150 ms
+2022-07-12 07:22:12,958 INFO  [DefaultSoapUICore] All plugins loaded
+2022-07-12 07:22:13,529 INFO  [WsdlProject] Loaded project from [file:/C:/Users/amolu/Documents/Chat-server-july-22-soapui-project.xml]
+2022-07-12 07:22:14,356 INFO  [log] {"error":true,"result":"User exists"}
+2022-07-12 07:22:14,381 INFO  [log] expected1=User exists
+2022-07-12 07:22:14,382 INFO  [log] expected=User exists
+2022-07-12 07:22:14,385 INFO  [log] User exists
